@@ -20,5 +20,9 @@ $(".float").click(function(){
    $("#feather").slideToggle();
 });
 
+//Spell #4
 
+$(".reveal").click(function(){
+    $("#cloak").toggle();
+});
 
