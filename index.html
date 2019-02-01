@@ -5,8 +5,7 @@
 </script><style>body{
     text-align:center;
     background-color:black;
-    color:white;
-}
+    color:white;}
 
 img{
     width: 300px;
@@ -17,14 +16,21 @@ button{
 }</style></head>
     <body>
         <img src="https://bit.ly/2HIKwQc">
+        <div class="title">
             <h1>LORD VOLDEMORT</h1>
             <h4>HE WHO MUST NOT BE NAMED</h4>
+            </div>
+            <div class="container">
         <img id="light-bulb" src="https://bit.ly/2GfqMRJ">
             <button class="light-switch">LUMOS</button>
         <img id="erase" src="https://bit.ly/2DLOF1D">
             <button class="mind-erase">OBLIVIATE</button>
         <img id="feather" src="https://bit.ly/2t2p91P">
             <button class="float">WINGARDIUM LEVIOSA</button>
+        <img id="cloak" src="https://bit.ly/2t7TXi5">
+            <button class="reveal">REVELIO</button>
+            
+            </div>
 
     
 
@@ -54,6 +60,10 @@ $(".float").click(function(){
    $("#feather").slideToggle();
 });
 
+//Spell #4
 
+$(".reveal").click(function(){
+    $("#cloak").toggle();
+});
 
 </script></body></html>
